@@ -151,7 +151,7 @@
                     android:padding="5dp"
                     android:gravity="center"
                     android:textColor="#000"
-                    android:text="Day/Lect."/>
+                    android:text="Monday"/>
                 <TextView
                     android:id="@+id/lecture11"
                     android:textColor="#000"
@@ -257,71 +257,92 @@
 
                 <TextView
                     android:id="@+id/name2"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:background="@drawable/cell_shape"
                     android:fontFamily="serif"
-                    android:width="70dp"
-                    android:text="Tuesday"
-                    android:textColor="#000" />
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="wrap_content"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:text="Tuesday"/>
                 <TextView
                     android:id="@+id/lecture21"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture22"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture23"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
 
                 <TextView
                     android:id="@+id/lecture24"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:padding="5dp"
                     android:textColor="#000"
-                    android:text=""/>
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:id="@+id/lecture25"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/cell_shape"
+                    android:padding="5dp"
                     android:layout_weight="1"
-                    android:text=""/>
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture26"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture27"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
             </TableRow>
             <View
                 android:layout_height="3dip"
@@ -349,70 +370,92 @@
 
                 <TextView
                     android:id="@+id/name3"
-                    android:layout_width="90dp"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:background="@drawable/cell_shape"
                     android:fontFamily="serif"
-                    android:text="Wednesday"
-                    android:textColor="#000" />
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="wrap_content"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:text="Wedneday"/>
                 <TextView
                     android:id="@+id/lecture31"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture32"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture33"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
 
                 <TextView
                     android:id="@+id/lecture34"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:padding="5dp"
                     android:textColor="#000"
-                    android:text=""/>
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:id="@+id/lecture35"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/cell_shape"
+                    android:padding="5dp"
                     android:layout_weight="1"
-                    android:text=""/>
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture36"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture37"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
             </TableRow>
             <View
                 android:layout_height="3dip"
@@ -441,69 +484,91 @@
                 <TextView
                     android:id="@+id/name4"
                     android:fontFamily="serif"
+                    android:background="@drawable/cell_shape"
                     android:layout_height="wrap_content"
                     android:layout_width="90dp"
                     android:padding="5dp"
-                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
                     android:textColor="#000"
-                    android:text="Thursday"/>
+                    android:text="Wedneday"/>
                 <TextView
                     android:id="@+id/lecture41"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture42"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture43"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
 
                 <TextView
                     android:id="@+id/lecture44"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:padding="5dp"
                     android:textColor="#000"
-                    android:text=""/>
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:id="@+id/lecture45"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/cell_shape"
+                    android:padding="5dp"
                     android:layout_weight="1"
-                    android:text=""/>
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture46"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture47"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
             </TableRow>
             <View
                 android:layout_height="3dip"
@@ -532,69 +597,91 @@
                 <TextView
                     android:id="@+id/name5"
                     android:fontFamily="serif"
+                    android:background="@drawable/cell_shape"
                     android:layout_height="wrap_content"
                     android:layout_width="90dp"
                     android:padding="5dp"
-                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
                     android:textColor="#000"
-                    android:text="Friday"/>
+                    android:text="Wedneday"/>
                 <TextView
                     android:id="@+id/lecture51"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture52"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture53"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
 
                 <TextView
                     android:id="@+id/lecture54"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:padding="5dp"
                     android:textColor="#000"
-                    android:text=""/>
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:id="@+id/lecture55"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/cell_shape"
+                    android:padding="5dp"
                     android:layout_weight="1"
-                    android:text=""/>
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture56"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture57"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
             </TableRow>
             <View
                 android:layout_height="3dip"
@@ -623,69 +710,91 @@
                 <TextView
                     android:id="@+id/name6"
                     android:fontFamily="serif"
+                    android:background="@drawable/cell_shape"
                     android:layout_height="wrap_content"
                     android:layout_width="90dp"
-                    android:textColor="#000"
                     android:padding="5dp"
-                    android:background="@drawable/cell_shape"
-                    android:text="Saturday"/>
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:text="Wedneday"/>
                 <TextView
                     android:id="@+id/lecture61"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture62"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture63"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
 
                 <TextView
                     android:id="@+id/lecture64"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:padding="5dp"
                     android:textColor="#000"
-                    android:text=""/>
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:id="@+id/lecture65"
                     android:textColor="#000"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/cell_shape"
+                    android:padding="5dp"
                     android:layout_weight="1"
-                    android:text=""/>
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture66"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
                 <TextView
                     android:textColor="#000"
                     android:id="@+id/lecture67"
                     android:fontFamily="serif"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:gravity="center"
                     android:layout_weight="1"
-                    android:text=""/>
+                    android:background="@drawable/cell_shape"
+                    />
             </TableRow>
             <View
                 android:layout_height="3dip"
@@ -693,9 +802,6 @@
                 android:background="#000"/>
         </TableLayout>
     </ScrollView>
-
-
-
 
 </LinearLayout>
 </ScrollView>

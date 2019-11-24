@@ -31,6 +31,7 @@ public class ShowTable extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_table);
         ArrayList<Object> blockid = new ArrayList<Object>();
+
         t11 = findViewById(R.id.lecture11);
         t12 = findViewById(R.id.lecture12);
         t13 = findViewById(R.id.lecture13);
@@ -47,10 +48,6 @@ public class ShowTable extends AppCompatActivity {
         blockid.add(t16);
         blockid.add(t17);
 
-        Random rand =new Random();
-        //System.out.println(blockid.get(rand.nextInt(blockid.size())));
-        TextView obj = (TextView) blockid.get(rand.nextInt(blockid.size()));
-        blockid.remove(obj);
 
         ArrayList<String> faculty = new ArrayList<String>();
         faculty.add("CC(AK)");
@@ -59,8 +56,16 @@ public class ShowTable extends AppCompatActivity {
         faculty.add("AI(JP)");
         faculty.add("HV(S)");
 
-        String s = faculty.get(rand.nextInt(faculty.size()));
-        obj.setText(s);
+        Random rand =new Random();
+        TextView obj;
+        for(int i=0;i<7;i++)
+        {
+            obj = (TextView) blockid.get(rand.nextInt(blockid.size()));
+            blockid.remove(obj);
+
+            String s = faculty.get(rand.nextInt(faculty.size()));
+            obj.setText(s);
+        }
 
     }
 }
