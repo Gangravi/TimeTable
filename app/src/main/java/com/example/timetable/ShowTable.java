@@ -59,8 +59,8 @@ public class ShowTable extends AppCompatActivity {
         faculty.add("AI(JP)");
         faculty.add("HV(S)");
 
-        //String s = faculty.get(rand.faculty);
-        obj.setText("DS");
+        String s = faculty.get(rand.nextInt(faculty.size()));
+        obj.setText(s);
 
     }
 }
