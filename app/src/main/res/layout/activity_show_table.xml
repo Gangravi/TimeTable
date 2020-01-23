@@ -377,7 +377,7 @@
                     android:padding="5dp"
                     android:gravity="center"
                     android:textColor="#000"
-                    android:text="Wedneday"/>
+                    android:text="Wednesday"/>
                 <TextView
                     android:id="@+id/lecture31"
                     android:textColor="#000"
@@ -490,7 +490,7 @@
                     android:padding="5dp"
                     android:gravity="center"
                     android:textColor="#000"
-                    android:text="Wedneday"/>
+                    android:text="Thursday"/>
                 <TextView
                     android:id="@+id/lecture41"
                     android:textColor="#000"
@@ -603,7 +603,7 @@
                     android:padding="5dp"
                     android:gravity="center"
                     android:textColor="#000"
-                    android:text="Wedneday"/>
+                    android:text="Friday"/>
                 <TextView
                     android:id="@+id/lecture51"
                     android:textColor="#000"
@@ -716,7 +716,7 @@
                     android:padding="5dp"
                     android:gravity="center"
                     android:textColor="#000"
-                    android:text="Wedneday"/>
+                    android:text="Saturday"/>
                 <TextView
                     android:id="@+id/lecture61"
                     android:textColor="#000"
