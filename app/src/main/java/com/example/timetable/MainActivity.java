@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button button;
-
-
+    Button button,homePage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +25,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-    }
+        homePage=findViewById(R.id.homepage);
+        homePage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Intent i = new Intent(MainActivity.this,HomePage.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+    }
 
 }
