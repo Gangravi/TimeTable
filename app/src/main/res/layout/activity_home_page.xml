@@ -11,6 +11,7 @@
         android:layout_weight="1"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/generate"
+        android:background="@drawable/ellipse"
         />
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -18,15 +19,18 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/generate"
+        android:src="@drawable/retrive"
+        android:background="@drawable/ellipse"
         />
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/showdatabase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/generate"
+        android:src="@drawable/database"
+        android:background="@drawable/ellipse"
         />
 
 </LinearLayout>

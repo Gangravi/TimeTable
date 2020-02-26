@@ -1,0 +1,188 @@
+{
+  "semester_1" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_2" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_3" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_4" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_5" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_6" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_7" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "semester_8" : {
+    "faculty" : {
+      "faculty_1" : "JP",
+      "faculty_2" : "AK",
+      "faculty_3" : "AD",
+      "faculty_4" : "SC",
+      "faculty_5" : "SC"
+    },
+    "load_hours" : {
+      "load_faculty_1" : 4,
+      "load_faculty_2" : 4,
+      "load_faculty_3" : 4,
+      "load_faculty_4" : 4,
+      "load_faculty_5" : 4
+    },
+    "subject" : {
+      "sub_1" : "AI",
+      "sub_2" : "CC",
+      "sub_3" : "DS",
+      "sub_4" : "SC",
+      "sub_5" : "HV"
+    }
+  },
+  "total_faculty" : 5,
+  "total_subject" : 5
+}
