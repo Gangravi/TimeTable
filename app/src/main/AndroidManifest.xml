@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomePage"></activity>
-        <activity android:name=".ShowDatabase"></activity>
+        <activity android:name=".Retrieve"></activity>
+        <activity android:name=".Generate" />
+        <activity android:name=".SemesterData" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".ShowDatabase" />
         <activity
             android:name=".ShowTable"
             android:screenOrientation="landscape" />
