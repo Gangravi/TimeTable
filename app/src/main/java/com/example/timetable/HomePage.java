@@ -23,6 +23,7 @@ HomePage extends AppCompatActivity {
 
                 Intent intent = new Intent(HomePage.this , ShowDatabase.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
