@@ -38,6 +38,7 @@ public class Database extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_database);
 
+
         passedArg = getIntent().getExtras().getString("Semester");
 
         faculties = new ArrayList<>();
