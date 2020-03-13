@@ -38,6 +38,10 @@ public class ShowDatabase extends AppCompatActivity implements AdapterView.OnIte
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 
     public boolean isEnabled(int position) {
         if (position == 0) {

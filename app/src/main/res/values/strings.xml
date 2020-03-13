@@ -3,6 +3,9 @@
 
     <string name="app_name">TimeTable</string>
     <string name="semester_prompt">Choose a Semester</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
     <string-array name="country_arrays">
         <item>Semester 1</item>

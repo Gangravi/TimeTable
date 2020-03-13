@@ -7,10 +7,13 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity extends AppCompatActivity {
 
     public static Button buttonlogin;
     public static Button buttonsignup;
+    private FirebaseAuth auth;
 
 
     @Override
@@ -46,6 +49,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        auth = FirebaseAuth.getInstance();
+
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(MainActivity.this, HomePage.class));
+            finish();
+        }
 
     }
 

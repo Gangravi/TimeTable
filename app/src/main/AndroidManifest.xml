@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".SignupActivity" android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/>
-
-        <activity android:name=".LoginActivity" android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/>
+        <activity
+            android:name=".ResetPassword"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/>
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
         <activity android:name=".FacultyAdapter" />
         <activity android:name=".AddFaculty" />
         <activity android:name=".Database" />
         <activity android:name=".Retrieve" />
         <activity android:name=".Generate" />
-        <activity android:name=".HomePage" />
+        <activity
+            android:name=".HomePage" />
         <activity android:name=".ShowDatabase" />
         <activity
             android:name=".ShowTable"

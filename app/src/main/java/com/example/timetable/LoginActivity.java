@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -39,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth auth;
     private ProgressBar progressBar;
     private Button signin;
+    TextView forgot_pass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,14 +53,24 @@ public class LoginActivity extends AppCompatActivity {
         inputPassword = findViewById(R.id.emailText_password);
         signin = findViewById(R.id.button);
         progressBar = findViewById(R.id.progressBar3);
+        forgot_pass = findViewById(R.id.textView_forgotpass);
 
         auth = FirebaseAuth.getInstance();
 
-        //FirebaseAuth.getInstance().signOut();
-        if (auth.getCurrentUser() != null) {
-            startActivity(new Intent(LoginActivity.this, HomePage.class));
-            finish();
-        }
+       // FirebaseAuth.getInstance().signOut();
+//        if (auth.getCurrentUser() != null) {
+//            startActivity(new Intent(LoginActivity.this, HomePage.class));
+//            finish();
+//        }
+
+        forgot_pass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this,ResetPassword.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -166,4 +178,6 @@ public class LoginActivity extends AppCompatActivity {
 
 
     }
+
+
 }
