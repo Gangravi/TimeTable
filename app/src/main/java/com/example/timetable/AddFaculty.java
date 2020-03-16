@@ -1,6 +1,5 @@
 package com.example.timetable;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,25 +10,25 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+
 
 public class AddFaculty extends AppCompatActivity {
 
      EditText faculty,subject,load;
      Button save,back;
-     String passedArg;
-     int count=0;
+     String passedArg,passedArg1;
      DatabaseReference databaseReference;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_faculty);
 
-        passedArg = getIntent().getExtras().getString("Semester");
+        Bundle extras = getIntent().getExtras();
+        passedArg = extras.getString("Semester");
+        passedArg1 = extras.getString("Course");
 
         faculty = findViewById(R.id.et1);
         subject = findViewById(R.id.et2);
@@ -37,19 +36,6 @@ public class AddFaculty extends AppCompatActivity {
         save = findViewById(R.id.button);
         back = findViewById(R.id.back);
 
-//        databaseReference = FirebaseDatabase.getInstance().getReference().child("app").child(passedArg);
-//        databaseReference.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                if(dataSnapshot.exists())
-//                    count= (int) dataSnapshot.getChildrenCount();
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
 
         databaseReference = FirebaseDatabase.getInstance().getReference("app");
 
@@ -95,7 +81,7 @@ public class AddFaculty extends AppCompatActivity {
 
         FacultyModel facultyModel = new FacultyModel(id,faculty_name,subject_name,load_hours);
         //int check= count+1;
-        databaseReference.child(passedArg).child(id).setValue(facultyModel);
+        databaseReference.child(passedArg1).child(passedArg).child(id).setValue(facultyModel);
         faculty.setText("");
         subject.setText("");
         load.setText("");

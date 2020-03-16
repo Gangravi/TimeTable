@@ -5,6 +5,17 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        />
+
     <TextView
         android:id="@+id/sem_name"
         android:layout_width="wrap_content"

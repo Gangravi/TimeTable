@@ -25,9 +25,9 @@ import java.util.List;
 
 public class Database extends AppCompatActivity {
 
-    TextView semester_name;
+    TextView semester_name,course_name;
     Button button;
-    String passedArg;
+    String passedArg,passedArg1;
 
     ListView listView;
     List<FacultyModel> faculties;
@@ -39,14 +39,18 @@ public class Database extends AppCompatActivity {
         setContentView(R.layout.activity_database);
 
 
-        passedArg = getIntent().getExtras().getString("Semester");
+        Bundle extras = getIntent().getExtras();
+        passedArg = extras.getString("Semester");
+        passedArg1 = extras.getString("Course");
 
         faculties = new ArrayList<>();
         listView = findViewById(R.id.listview);
 
         semester_name = findViewById(R.id.sem_name);
+        course_name = findViewById(R.id.course_name);
         button = findViewById(R.id.button_add);
         semester_name.setText(passedArg);
+        course_name.setText(passedArg1);
 
         if (passedArg.equals("Semester 1"))
             passedArg = "Semester_1";
@@ -66,12 +70,15 @@ public class Database extends AppCompatActivity {
             passedArg = "Semester_8";
 
 
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("app").child(passedArg);
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("app").child(passedArg1).child(passedArg);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Database.this, AddFaculty.class);
-                intent.putExtra("Semester", passedArg);
+                Bundle extras = new Bundle();
+                extras.putString("Semester",passedArg);
+                extras.putString("Course",passedArg1);
+                intent.putExtras(extras);
                 startActivity(intent);
             }
         });
@@ -117,7 +124,7 @@ public class Database extends AppCompatActivity {
     private boolean deleteFaculty(String id)
     {
 
-        DatabaseReference databaseReference1 = FirebaseDatabase.getInstance().getReference().child("app").child(passedArg).child(id);
+        DatabaseReference databaseReference1 = FirebaseDatabase.getInstance().getReference().child("app").child(passedArg1).child(passedArg).child(id);
         databaseReference1.removeValue();
 
         Toast.makeText(this, "Faculty Deleted", Toast.LENGTH_SHORT).show();
